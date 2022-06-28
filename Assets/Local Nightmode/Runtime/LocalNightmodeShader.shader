@@ -40,7 +40,7 @@ Shader "LocalNightmodeShader"
             {
                 v2f o;
                 UNITY_INITIALIZE_OUTPUT(v2f, o);
-                if(_ScreenParams.x != 1 && _RenderTexture[uint2(0,0)].r!=1.0) return o;
+                if(_ScreenParams.x != 1 && _RenderTexture[uint2(0,0)].r!=1.0 || unity_CameraProjection._m20 != 0.0 || unity_CameraProjection._m21 != 0.0) return o;
 
                 UNITY_SETUP_INSTANCE_ID(i);
                 UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
