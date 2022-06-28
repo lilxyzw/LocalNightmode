@@ -1,0 +1,12 @@
+{
+    "name": "jp.lilxyzw.localnightmode",
+    "version": "1.0.1",
+    "displayName": "Local Nightmode",
+    "description": "Avatar built-in night mode for VRChat.",
+    "unity": "2019.4",
+    "documentationUrl": "https://github.com/lilxyzw/LocalNightmode",
+    "licensesUrl": "https://github.com/lilxyzw/LocalNightmode/blob/main/LICENSE",
+    "license": "MIT",
+    "url" : "https://github.com/lilxyzw/LocalNightmode.git?path=Assets/Local%20Nightmode#master"
+  }
+  
